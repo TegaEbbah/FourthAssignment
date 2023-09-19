@@ -1,0 +1,232 @@
+.propertySection {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h2AndButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewAllProperty {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 0.3125rem;
+    background-color: #F4511E;
+    box-shadow: 0px 1.85185px 3.14815px 0px rgba(248, 90, 71, 0.02), 0px 8.14815px 6.51852px 0px rgba(248, 90, 71, 0.03), 0px 20px 13px 0px rgba(248, 90, 71, 0.04);
+    border: none;
+    padding: 1rem 2.13rem;
+
+    transition: 0.5s ease;
+
+}
+
+button {
+    transition: 0.5s ease !important;
+    cursor: pointer;
+}
+
+
+.viewAllProperty :hover {
+    background-color: #8d4934 !important;
+}
+
+.property {
+    border-radius: 1.66356rem;
+    background-color: #FFF;
+    box-shadow: 0px 34.06929px 36.19862px 0px rgba(0, 0, 0, 0.13);
+}
+
+.propertiesContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.propertyImage {
+    width: 100%;
+}
+
+.address {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.04013rem;
+}
+
+
+.roomType {
+    color: #818181;
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04013rem;
+
+    margin-bottom: 0;
+
+}
+
+.price {
+    color: #F4511E;
+    font-family: DM Sans;
+    font-size: 1.597rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.04013rem;
+    /* text-align: left; */
+
+    margin-top: 0;
+
+}
+
+
+.propertyInfo {
+    display: flex;
+    width: 100%;
+
+
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1.13119rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.02844rem;
+}
+
+
+.upperProperty {
+    margin-bottom: 4rem;
+}
+
+
+
+.infoContainer {
+    width: 33.33%;
+    padding: 1rem;
+    border-top: 0.1rem solid #E4E4E4;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.middle {
+    border-left: 0.1rem solid #E4E4E4;
+    border-right: 0.1rem solid #E4E4E4;
+}
+
+.addressAndPrice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.listOfProperties {
+    padding-bottom: 10rem;
+    width: 80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+}
+
+.center {
+    /* margin-left: 1rem; */
+    /* margin-right: 3rem */
+    padding-left: 2rem;
+
+
+}
+
+
+
+/* new pagenation stuff */
+
+
+.pagenumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    border: 1px solid #E9E9E9;
+    width: fit-content;
+
+}
+
+.pagenumbers button {
+    border: 1px solid #E9E9E9;
+    background: #FFF;
+    padding: 1.5625rem 1.25rem;
+    color: #F4511E;
+    text-align: center;
+
+
+    font-family: DM Sans;
+    font-size: 1.13119rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.02844rem;
+
+    letter-spacing: 0.00625rem;
+}
+
+
+.pagenumbers button :hover {
+    background-color: #F4511E;
+}
+
+
+.pagenumbers button.active {
+    background-color: #F4511E;
+    color: #FFF;
+}
+
+
+.paginationWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.paginationWrapperAndproperties {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

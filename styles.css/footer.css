@@ -1,0 +1,116 @@
+.FooterLogo {
+    color: #000;
+    font-family: Inter;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+    letter-spacing: -0.0625rem;
+
+}
+
+
+.footerText {
+    color: var(--Dark, #0A142F);
+    font-family: Assistant;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    display: flex;
+    gap: 1rem;
+
+    align-items: center;
+}
+
+.socialMedia {
+    color: var(--Dark, #0A142F);
+    font-family: Assistant;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    opacity: 0.5;
+}
+
+.FooterLink {
+    color: var(--Dark, #0A142F);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    margin-top: 15rem;
+
+}
+
+.footerContainer {
+    border-top: 0.2rem solid #F4511E;
+    width: 80%;
+    padding-top: 5rem;
+}
+
+.logoAndBlock {
+    display: flex;
+
+    gap: 17rem;
+    margin-bottom: 5rem;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightInfo {
+    color: var(--Dark, #0A142F);
+    text-align: right;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    opacity: 0.5;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footerBottom {
+    display: flex;
+    /* justify-content: space-between; */
+
+    gap: 15rem;
+}
+
+
+
+.socialMediaSection {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    gap: 5rem;
+}

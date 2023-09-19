@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Minimum Living </title>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css/header.css">
+    <link rel="stylesheet" href="./styles.css/heroSection.css">
+    <link rel="stylesheet" href="./styles.css/benefitSection.css">
+    <link rel="stylesheet" href="./styles.css/propertySection.css">
+    <link rel="stylesheet" href="./styles.css/flexibilitySection.css">
+    <link rel="stylesheet" href="./styles.css/formSection.css">
+    <link rel="stylesheet" href="./styles.css/testimonySection.css">
+    <link rel="stylesheet" href="./styles.css/footer.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="navContainer">
+            <nav>
+
+                <img class="logo" src="./svg/rentalLogo.svg" alt="logo">
+
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Landloard</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Tenants</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+
+        <div class="heroSection">
+
+            <h1>The Most Affortable <br> Place To Stay In The <br> San Franciso Bay Area</h1>
+
+            <div class="mapAndSearch">
+                <img class="map" src="./images/heroMapSvg.svg" alt="">
+
+
+                <div class="search">
+                    <select class="select" name="" id="allType">
+                        <option value="" disabled selected>All Type</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                    </select>
+
+
+                    <select class="select" name="" id="neighborhood">
+                        <option value="" disabled selected>Neighborhood</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                    </select>
+
+                    <button class="searchButton">
+                        <img src="./svg/searchIcon.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <div class="benefitSection">
+
+
+
+            <div>
+                <h2>
+                    <p class="redLineUnder">Minimum Living Cost </p>
+                    <p> Takes Care Of Everything</p>
+                </h2>
+
+                <div class="imageAndBenefitContainer">
+                    <img class="pool" src="./images/pool.png" alt="pool">
+
+
+                    <div class="benefitContainer">
+
+
+                        <div class="benefitColumn">
+                            <div class="upperBenefit">
+                                <div class="iconContainer">
+                                    <img src="./svg/dollarIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Pay As Little <br> As Possible!
+                                </p>
+                            </div>
+
+
+
+                            <div>
+                                <div class="iconContainer">
+                                    <img src="./svg/plantIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Enjoy Peaceful <br> Environment!
+                                </p>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="benefitColumn">
+                            <div class="upperBenefit">
+                                <div class="iconContainer">
+                                    <img src="./svg/communityIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Enjoy Wisdom <br> Of Community!
+                                </p>
+                            </div>
+
+
+
+                            <div>
+                                <div class="iconContainer">
+                                    <img src="./svg/shieldIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Stay Safe! <br> Save Money!
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="benefitColumn">
+                            <div class="upperBenefit">
+                                <div class="iconContainer">
+                                    <img src="./svg/stackIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Let's Somebody Else <br> Take care Of Landlord!
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <div class="iconContainer">
+                                    <img src="./svg/eyeIcon.svg" alt="">
+                                </div>
+
+                                <p class="benefitStatement">
+                                    Pay For What <br> You Use !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="propertySection">
+            <div class="listOfProperties">
+                <div class="h2AndButtonContainer">
+
+                    <h2>
+                        <p class="redLineUnder">List Of</p>
+                        <p> Properties</p>
+                    </h2>
+
+                    <button class="viewAllProperty">
+                        View All Property
+                    </button>
+
+                </div>
+
+                <div class="paginationWrapperAndproperties">
+
+                    <div class="propertiesContainer" id="propertiesContainer">
+
+                    </div>
+
+                    <div class="paginationWrapper">
+                        <div class="pagenumbers" id="pagination"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="flexibilitySection">
+
+            <div class="flexibilityContainer">
+                <div class="flexibilityImages">
+
+                    <div class="imagerow imageBottom">
+                        <div class="imageAndText bottom">
+                            <img class="flexibilityImage" src="./images/bedImage.png" alt="">
+                            <p class="text">Flexible Leases</p>
+                        </div>
+
+
+                        <div class="imageAndText">
+                            <img class="flexibilityImage" src="./images/happinessImage.png" alt="">
+                            <p class="text">7-Day Happiness <br> Guaranteed</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="imagerow">
+                        <div class="imageAndText">
+                            <img class="flexibilityImage" src="./images/cleaningSuppliesImage.png" alt="">
+                            <p class="text">Monthly House <br> Cleaning</p>
+                        </div>
+
+
+                        <div class="imageAndText">
+                            <img class="flexibilityImage" src="./images/roommatesImage.png" alt="">
+                            <p class="text">Choose Your <br> Own Roommate</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="flexibilityTextAndButton">
+                    <p class="text1">Flexibility and options <br> to suit your lifestyle.</p>
+                    <p class="text2">
+                        You need it? We got it. We make finding your next <br> home easy, comfortable, and simple. From
+                        our <br>
+                        happiness guarantee to our selective roommate <br> finder option. We provide you the flexibility
+                        that
+                        you <br> most desire.
+                    </p>
+
+                    <button class="searchRooms">
+                        Search Rooms
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="formSection">
+
+            <p class="textAboveFormContainer">Your Property With Us And Be Confident That Your Room Will Be
+                Filled
+                Out!</p>
+
+
+            <div class="eightyPercent">
+                <div class="formContainerAndText">
+                    <div class="center">
+
+
+                        <p class="textAboveForms">Add A New Property</p>
+
+                        <div class="formContainer">
+
+
+                            <div class="forms">
+                                <div class="threeForms">
+
+                                    <form action="">
+                                        <label class="label" for="name">
+
+                                            <p class="inputDescription"> Name</p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <input class="formInput" type="text" placeholder="Enter Name" id="name"
+                                            required> <br>
+
+
+                                        <label class="label" for="city">
+
+                                            <p class="inputDescription"> City</p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <select class="formSelect" id="city">
+                                            <option value="" disabled selected>Select City</option>
+                                            <option value="Oakland">Oakland</option>
+                                            <option value="san jose">san jose, CA</option>
+                                            <option value="Berkeley">Berkeley</option>
+                                            <option value="San Mateo">San Mateo</option>
+                                            <option value="Palo Alto">Palo Alto</option>
+                                        </select> <br>
+
+
+
+
+                                        <label class="label" for="price">
+                                            <p class="inputDescription">Price</p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <input class="formInput" type="text" placeholder="Enter Price" required
+                                            id="price"> <br>
+
+                                    </form>
+
+
+                                    <form action="">
+
+                                        <label class="label" for="address">
+
+                                            <p class="inputDescription">Address</p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <input class="formInput" type="text" placeholder="Enter Address" id="address"
+                                            required> <br>
+
+
+                                        <label class="label" for="state">
+
+                                            <p class="inputDescription"> State</p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <select class="formSelect" id="state">
+                                            <option value="" disabled selected>Select State</option>
+                                            <option value="Oakland">California</option>
+                                            <option value="san jose">Texas</option>
+                                            <option value="Berkeley">Florida</option>
+                                            <option value="San Mateo">Virginia</option>
+                                            <option value="Palo Alto">Georgia</option>
+                                            <option value="Palo Alto">Ohio</option>
+                                            <option value="Palo Alto">Georgia</option>
+                                            <option value="Palo Alto">Massachusetts</option>
+                                        </select> <br>
+
+
+
+
+                                        <label class="label" for="roomType">
+
+                                            <p class="inputDescription"> Room Type </p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <select class="formSelect" id="roomType">
+                                            <option value="" disabled selected>Select Room Type</option>
+                                            <option value="privateRoom">Private Room</option>
+                                            <option value="publicRoom">Public Room</option>
+                                        </select> <br>
+                                    </form>
+
+
+                                    <form action="">
+                                        <label class="label" for="unitNumber">
+
+                                            <p class="inputDescription">Unit Number </p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <input class="formInput" type="text" placeholder="Enter Unit" id="unitNumber"
+                                            required> <br>
+
+
+
+                                        <label class="label" for="roomType">
+
+                                            <p class="inputDescription"> Room Type </p>
+                                            <p class="redStar">*</p>
+                                        </label> <br>
+                                        <select class="formSelect" id="roomType">
+                                            <option value="" disabled selected>Select Room Type</option>
+                                            <option value="privateRoom">Private Room</option>
+                                            <option value="publicRoom">Public Room</option>
+                                        </select> <br>
+                                    </form>
+
+
+                                </div>
+
+
+                                <label class="label" for="roomType">
+
+                                    <p class="inputDescription"> Description </p>
+                                    <p class="redStar">*</p>
+                                </label> <br>
+                                <textarea id="description" cols="30" rows="4" placeholder="Enter Description"
+                                    required></textarea> <br>
+
+
+                                <p class="inputDescription">Upload Photos</p>
+                                <label for="input-file" id="drop-area">
+                                    <input type="file" accept="image/*" id="input-file" hidden>
+                                    <div id="imageView">
+                                        <div class="dropText">
+                                            <p class="DragText">Drag your images here, or </p>
+                                            <p class="browse">browse</p>
+                                        </div>
+                                        <p class="allowedType">Supported: JPG, JPEG, PNG</p>
+                                    </div>
+                                </label> <br>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="formButton"> Add New Property</button>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="testimonySection">
+            <div class="testimonyAndImage">
+                <div class="testimonyAndTestifier">
+
+                    <div class="testimonyContainer">
+                        <p class="testimonyText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam <br>
+                            interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel <br>
+                            pellentesque est. Curabitur at odio sit amet libero vulputate <br>
+                            efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam <br>
+                            massa, faucibus id pretium ac, mattis eu velit. Donec sed risus <br>
+                            a lacus fringilla finibus.
+                        </p>
+
+                        <div class="testifierInfo">
+                            <img src="./images/testifierImage.png" alt="">
+
+
+                            <div class="nameAndStatus">
+                                <p class="testifierName"> Harry Wilson</p>
+                                <p class="testifierStatus">Property Owner</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <img class="testImg" src="./images/testimonySection image.png" alt="">
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <div class="footerContainer">
+
+            <div class="container2">
+                <div class="logoAndBlock">
+                    <p class="FooterLogo">Logo</p>
+
+                    <div class="besideLogoBlock">
+
+                        <p class="footerText "> <img src="./svg/locationIcon.svg" alt=""> 345 Faulconer Drive, Suite 4 •
+                            Charlottesville, CA, 12345</p>
+
+                        <div class="numbers">
+                            <p class="footerText"> <img src="./svg/phoneIcon.svg" alt=""> (123) 456-7890</p>
+                            <p class="footerText"> <img src="./svg/printerIcon.svg" alt=""> (123) 456-7890</p>
+                        </div>
+
+
+
+                        <div class="socialMediaSection">
+                            <p class="socialMedia">Social Media</p>
+
+                            <a href="https://web.facebook.com/"><img src="./svg/facebookiIcon.svg" alt=""></a>
+                            <a href="https://twitter.com/"><img src="./svg/twitterIcon.svg" alt=""></a>
+                            <a href="https://www.linkedin.com/"><img src="./svg/linkedinIcon.svg" alt=""></a>
+                            <a href="https://www.youtube.com/"><img src="./svg/youtubeIcon.svg" alt=""></a>
+                            <a href="https://www.instagram.com/"><img src="./svg/instagramIcon.svg" alt=""></a>
+                            <a href="https://myaccount.google.com/"><img src="./svg/googleplusIcon.svg" alt=""></a>
+                            <a href="https://www.pinterest.com/"><img src="./svg/pinterestIcon.svg" alt=""></a>
+                            <a href=""><img src="./svg/wifiIcon.svg" alt=""></a>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footerBottom">
+
+                    <div class="footerLinks">
+                        <p class="FooterLink">About us</p>
+                        <p class="FooterLink"> Contact us</p>
+                        <p class="FooterLink">Help</p>
+                        <p class="FooterLink">Privacy Policy</p>
+                        <p class="FooterLink">Disclaimer</p>
+                    </div>
+
+                    <p class="copyrightInfo">Copyright © 2020 Minimumlivingcost. All rights reserved</p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </footer>
+
+
+    <script type="module" src="./javascript/DragAndDrop.js"></script>
+    <script type="module" src="./javascript/PageNation.js"></script>
+    <script type="module" src="./javascript/everyProperty.js"></script>
+    <script type="module" src="./javascript/UploadProperty.js"></script>
+
+</body>
+
+</html>
